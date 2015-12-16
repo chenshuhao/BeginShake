@@ -1,0 +1,7 @@
+{
+  "require": {
+    "nategood/httpful": "0.2.20",
+    "predis/predis": "v1.0.3",
+    "curl/curl": "2.0.0-alpha1"
+  }
+}

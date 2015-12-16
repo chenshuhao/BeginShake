@@ -1,0 +1,16 @@
+<?php
+//Define
+define('ROOT_DIR', realpath('../'));
+
+
+//Logger
+define('LOOGER_DIR',ROOT_DIR.DIRECTORY_SEPARATOR.'Logs'.DIRECTORY_SEPARATOR.'Web_logs');
+define('LOG_SIZE',104857600); //104857600
+define('DB_LOOGER_DIR',ROOT_DIR.DIRECTORY_SEPARATOR.'Logs'.DIRECTORY_SEPARATOR.'Db_logs');
+define('DB_LOG_SIZE',104857600); //104857600
+
+
+
+//Cache
+define('WECHAT_CACHE_DEFAULT_LIFETIME',7200); // 微信缓存默认生存时间
+
