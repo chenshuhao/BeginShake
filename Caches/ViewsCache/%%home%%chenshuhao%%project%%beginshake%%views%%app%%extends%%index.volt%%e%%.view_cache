@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+a:13:{i:0;s:1513:"<!DOCTYPE HTML>
 <html lang="zh-cn" ng-app="WebView">
 <head>
     <meta charset="utf-8">
@@ -24,12 +24,10 @@
     <![endif]-->
     <script type="text/javascript" src="/angularJS/angular.min.js" ></script>
 
-    <title>
-商户管理系统
-</title>
-    
-<!-- 集成下级head -->
-
+    <title>";s:5:"title";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:2:"  ";s:4:"file";s:65:"/home/chenshuhao/project/BeginShake/Views/App//extends/index.volt";s:4:"line";i:27;}}i:1;s:13:"</title>
+    ";s:4:"head";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:39:"
+        <!-- 集成下级head -->
+    ";s:4:"file";s:65:"/home/chenshuhao/project/BeginShake/Views/App//extends/index.volt";s:4:"line";i:30;}}i:2;s:1819:"
   </head>
   <body ng-controller="Extends">
     <div class="head">
@@ -76,87 +74,21 @@
                     <b>授权设置</b>
                 </li>
             </ul>
-            
+            ";s:8:"nav_left";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:14:"
 
-            
+            ";s:4:"file";s:65:"/home/chenshuhao/project/BeginShake/Views/App//extends/index.volt";s:4:"line";i:79;}}i:3;s:48:"
     	</div>
     	<div class="nav-title">
-    		
-<h3 class="text-r pr-20">门店管理</h3>
-<ul class="text-r " >
-    <li class="pt-5 pt-5 pb-5 pr-20 active" ng-click="location('/App/page/poiList')"><h5 class="lh-16">门店列表 <span class="iconfont icon-dianpu"></span></h5></li>
-    <li class="pt-5 pt-5 pb-5 pr-20" ng-click="location('/App/page/poiAdd')" ><h5 class="lh-16">添加门店 <span class="iconfont icon-qita"></span></h5></li>
-</ul>
+    		";s:9:"nav_title";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:14:"
 
+            ";s:4:"file";s:65:"/home/chenshuhao/project/BeginShake/Views/App//extends/index.volt";s:4:"line";i:84;}}i:4;s:91:"
     	</div>
     </div>
     <div class="con-right">
     	<div class="app-con">
-            
-<h2>门店详情</h2>
-<div class="line"></div>
-<div class="height20"></div>
-<table class="table ">
-    <tr>
-        <td class="text-r col-2">门店名称:</td>
-        <td class="text-l col-10"><?php echo $info['business_name']; ?></td>
-    </tr>
-    <tr>
-        <td class="text-r col-2">分店名称:</td>
-        <td class="text-l col-10"><?php echo ($info['branch_name'] ? $info['branch_name'] : '无'); ?></td>
-    </tr>
-    <tr>
-        <td class="text-r col-2">门店地址:</td>
-        <td class="text-l col-10"><?php echo $info['province']; ?><?php echo $info['city']; ?><?php echo $info['district']; ?><?php echo $info['address']; ?></td>
-    </tr>
-    <tr>
-        <td class="text-r col-2">门店电话:</td>
-        <td class="text-l col-10"><?php echo $info['telephone']; ?></td>
-    </tr>
-    <tr>
-        <td class="text-r col-2">门店分类:</td>
-        <td class="text-l col-10"><?php echo json_decode($info['categories'],1)[0]?></td>
-    </tr>
-    <tr>
-        <td class="text-r col-2" style="height:250px">门店位置:</td>
-        <td class="text-l col-10"> <div style="width:500px;height:233px" id="container"></div></td>
-    </tr>
-    <?php if($info['photo_list']):?>
-    <tr>
-        <td class="text-r col-2">门店图片:</td>
-        <td class="text-l col-10">
-            <?php
-                $photo_list = json_decode($info['photo_list'],1);
-                foreach($photo_list as $val){
-            ?>
-            <img src="<?php echo $val['photo_url']?>" alt="" style="width: 100px;height:100px;">
-            <?php } ?>
-        </td>
-    </tr>
-    <?php endif;?>
-    <tr>
-        <td class="text-r col-2">特色服务:</td>
-        <td class="text-l col-10"><?php echo ($info['special'] ? $info['special'] : '无'); ?></td>
-    </tr>
-    <tr>
-        <td class="text-r col-2">营业时间:</td>
-        <td class="text-l col-10"><?php echo ($info['open_time'] ? $info['open_time'] : '无'); ?></td>
-    </tr>
-    <tr>
-        <td class="text-r col-2">人均消费:</td>
-        <td class="text-l col-10"><?php echo ($info['avg_price'] ? $info['avg_price'] : '无'); ?></td>
-    </tr>
-    <tr>
-        <td class="text-r col-2">商户简介:</td>
-        <td class="text-l col-10"><?php echo ($info['introduction'] ? $info['introduction'] : '无'); ?></td>
-    </tr>
-    <tr>
-        <td class="text-r col-2">推荐品:</td>
-        <td class="text-l col-10"><?php echo ($info['recommend'] ? $info['recommend'] : '无'); ?></td>
-    </tr>
+            ";s:7:"content";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:14:"
 
-</table>
-
+            ";s:4:"file";s:65:"/home/chenshuhao/project/BeginShake/Views/App//extends/index.volt";s:4:"line";i:91;}}i:5;s:1095:"
         </div>
     </div>
     <div class="footer">
@@ -183,24 +115,7 @@
         }
     })
 </script>
+";s:13:"footer_script";a:1:{i:0;a:4:{s:4:"type";i:357;s:5:"value";s:2:"
 
-<script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp"></script>
-<script>
-    function init() {
-        var  center = new qq.maps.LatLng(<?php echo $info['latitude']; ?>, <?php echo $info['longitude']; ?>);
-        var map = new qq.maps.Map(document.getElementById("container"), {
-            // 设置地图中心
-            center: center,
-            zoom:16
-        });
-        var marker = new qq.maps.Marker({
-            //设置Marker的位置坐标
-            position: center,
-            //设置显示Marker的地图
-            map: map
-        });
-    }
-    init();
-</script>
-
-</html>
+";s:4:"file";s:65:"/home/chenshuhao/project/BeginShake/Views/App//extends/index.volt";s:4:"line";i:120;}}i:6;s:8:"
+</html>";}

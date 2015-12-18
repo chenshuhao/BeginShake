@@ -6,7 +6,6 @@ class PageController extends \BaseController
     //门店
     public function poiListAction()
     {
-
     }
 
     public function poiAddAction()

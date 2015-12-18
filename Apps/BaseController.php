@@ -16,7 +16,6 @@ class BaseController extends \Phalcon\Mvc\Controller
 
         $dir = explode('\\',$namespace);
         $this->view->setViewsDir(ROOT_DIR.DIRECTORY_SEPARATOR.'Views'.DIRECTORY_SEPARATOR.$dir[0].DIRECTORY_SEPARATOR);
-
         return true;
     }
 }
